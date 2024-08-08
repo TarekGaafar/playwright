@@ -1,0 +1,4 @@
+Environment= test
+URL= https://saberexemption-portal.aks.thiqah.sa/account/login
+Environment= test
+URL= https://saberexemption-portal.aks.thiqah.sa/account/login

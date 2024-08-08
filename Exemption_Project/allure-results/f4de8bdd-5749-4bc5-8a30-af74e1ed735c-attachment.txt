@@ -1,0 +1,10 @@
+Environment= test
+URL= https://saberexemption-portal.aks.thiqah.sa/account/login
+registrationMethod is started
+registrationMethod is Ended
+Error in data base connection that::RequestError: No connection is specified for that request.
+Environment= test
+URL= https://saberexemption-portal.aks.thiqah.sa/account/login
+userNavigatesToLandingPage is Ended
+loginMethod is started
+loginMethod is ended

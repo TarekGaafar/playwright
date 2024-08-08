@@ -1,0 +1,34 @@
+{
+  "name": "exemption_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+
+  "scripts": {
+    "ALLUI": "npx playwright test tests --ui",
+    "Headed": "npx playwright test --grep='tarek' --headed",
+    "test": "cucumber-js test"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.45.0",
+    "@types/node": "^20.14.9",
+    "allure-playwright": "^3.0.0-beta.7",
+    "playwright-html-reporter": "^0.1.11"
+  },
+  "dependencies": {
+    "@types/mssql": "^9.1.5",
+    "@typescript-eslint/parser": "^7.16.1",
+    "@typescript-eslint/typescript-estree": "^7.16.1",
+    "dotenv": "^16.4.5",
+    "mssql": "^11.0.1",
+    "mysql2": "^3.10.2",
+    "typescript": "^5.5.3",
+    "allure-playwright": "2.3.1"
+
+  }
+}

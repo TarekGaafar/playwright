@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Sun Jul 21 12:05:35 AST 2024","Sun Jul 21 12:06:13 AST 2024","37784","chromium","specs\FE\Exemption\individual\login.spec.ts","forget password","","","sucessfull scenario",""
+"failed","Sun Jul 21 12:05:35 AST 2024","Sun Jul 21 12:06:13 AST 2024","37977","chromium","specs\FE\Exemption\individual\login.spec.ts","Login","","","sucessfull scenario",""
+"passed","Sun Jul 21 12:05:35 AST 2024","Sun Jul 21 12:05:37 AST 2024","1612","chromium","specs\API\login.spec.ts","Login","","","API request with Playwright",""
+"failed","Sun Jul 21 12:05:35 AST 2024","Sun Jul 21 12:06:13 AST 2024","38190","chromium","specs\FE\Exemption\individual\login.spec.ts","Login","","","faild scenario",""
+"failed","Sun Jul 21 12:05:36 AST 2024","Sun Jul 21 12:06:14 AST 2024","37120","chromium","specs\FE\Exemption\individual\registration.spec.ts","Registration","","","sucessfull scenario",""
