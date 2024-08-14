@@ -1,4 +1,8 @@
- const __dirname = path.resolve(path.dirname(""));
+import path from "path";
+import * as fs from "fs";
+
+
+const __dirname = path.resolve(path.dirname(""));
 
     const filePath = path.join(
       __dirname,
