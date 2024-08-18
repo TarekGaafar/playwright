@@ -1,12 +1,12 @@
 import path from "path";
 import * as fs from "fs";
+let __dirname = path.resolve(path.dirname(""));
+let filePathTest
+ = path.join(__dirname, "./tests/testData/testDataTest.json");
+ let filePathPre
+ = path.join(__dirname, "./tests/testData/testDataPre.json");
+let dataTest = fs.readFileSync(filePathTest, "utf8");
+let dataPre = fs.readFileSync(filePathPre, "utf8");
 
-
-const __dirname = path.resolve(path.dirname(""));
-
-    const filePath = path.join(
-      __dirname,
-      "./tests/testData/testDataTest.json"
-    );
-    const data = fs.readFileSync(filePath, "utf8");
-    const jsonData = JSON.parse(data);
+let jsonTestData = JSON.parse(dataTest);
+let jsonPreData = JSON.parse(dataPre);
